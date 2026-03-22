@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# Сайт проекта Perfect Coffee Project
+Цель проекта: создание удобного сервиса для оценки кофе.
+На&nbsp;данном этапе представлена главная страница будущего сервиса,
+которая позволяет оценить дизайн, адаптивность и&nbsp;расположение элементов.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Что внутри
+### Главная страница:
+Шапка с&nbsp;навигацией;<br />
+Кнопка добавления отзыва;<br />
+Макет таблицы лидеров проекта;<br />
+Макет фильтрации таблицы лидеров;<br />
+Блок доверия с&nbsp;небольшим отступлением;<br />
+Номер телефона для связи.<br />
+### Страница Контакты:
+Форма обратной связи;<br />
+Карта с&nbsp;местоположением города, в&nbsp;котором работает сервис;<br />
+Номер телефона для связи.<br />
+### Страница FAQ:
+Ответы на&nbsp;часто задаваемые вопросы;<br />
+Номер телефона для связи.</p>
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Технологии
+Использование HTML5
+Использование Vue3
+CSS: использование Tailwindcss
+
+Ссылка: https://20snowleo20.github.io/project_coffee/
