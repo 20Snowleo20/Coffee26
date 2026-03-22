@@ -24,4 +24,4 @@
 Использование Vue3
 CSS: использование Tailwindcss
 
-Ссылка: https://20snowleo20.github.io/project_coffee/
+Ссылка: https://20snowleo20.github.io/cof/
