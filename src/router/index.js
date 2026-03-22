@@ -1,21 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import Contacts from '../components/Contacts.vue'
-
-// Если у вас есть другие страницы (404, FAQ, Рецепты, Профиль) – импортируйте их
-// import Faq from '../components/Faq.vue'
-// import Recipes from '../components/Recipes.vue'
-// import Profile from '../components/Profile.vue'
-// import NotFound from '../components/404.vue'
+import Faq from '../components/Faq.vue'
+import Page404 from '../components/Page404.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
   { path: '/contacts', name: 'contacts', component: Contacts },
-  // остальные маршруты
-  // { path: '/faq', component: Faq },
-  // { path: '/recipes', component: Recipes },
-  // { path: '/profile', component: Profile },
-  // { path: '/:pathMatch(.*)*', name: 'not-found', component: NotFound }, // 404
+  { path: '/faq', name: 'faq', component: Faq },
+  
+  // Catch-all: ловит ВСЕ несуществующие маршруты → показывает Page404
+  // ДОЛЖЕН БЫТЬ ПОСЛЕДНИМ в списке!
+  { path: '/:pathMatch(.*)*', name: 'not-found', component: Page404 }
 ]
 
 const router = createRouter({

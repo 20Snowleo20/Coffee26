@@ -2,7 +2,7 @@
   <div>
     <main
       class="text-slate-700 bg-cover bg-center bg-no-repeat"
-      :style="{ backgroundImage: 'url(/assets/image/bg_fieldandsky.jpg)' }"
+      :style="{ backgroundImage: `url(${bgfieldandsky})` }"
     >
       <div class="bg-white/50 p-4">
         <section>
@@ -146,11 +146,14 @@
 </template>
 
 <script>
+import bgfieldandsky from '../assets/image/bg_fieldandsky.jpg'
 export default {
   name: "Contacts",
   data() {
     return {
+      bgfieldandsky,
       form: {
+
         fullname: "",
         number: "",
         email: "",

@@ -6,10 +6,10 @@
         <router-link to="/" class="hover:underline">Главная</router-link>
         <router-link to="/#aboutus" class="hover:underline">О нас</router-link>
         <router-link to="/#table" class="hover:underline">Лидеры</router-link>
-        <router-link to="/recipes" class="hover:underline">Рецепты</router-link>
+        <router-link to="/Page404" class="hover:underline">Рецепты</router-link>
         <router-link to="/contacts" class="hover:underline">Контакты</router-link>
         <router-link to="/faq" class="hover:underline">FAQ</router-link>
-        <router-link to="/profile" class="hover:underline">Профиль</router-link>
+        <router-link to="/Page404" class="hover:underline">Профиль</router-link>
       </div>
       <div class="text-center md:text-right">Logo</div>
     </nav>
