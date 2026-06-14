@@ -9,7 +9,9 @@
         <router-link to="/Page404" class="hover:underline">Рецепты</router-link>
         <router-link to="/contacts" class="hover:underline">Контакты</router-link>
         <router-link to="/faq" class="hover:underline">FAQ</router-link>
-        <router-link to="/Page404" class="hover:underline">Профиль</router-link>
+        <router-link to="/profile"> Профиль </router-link>
+        <router-link to="/login">Вход</router-link>
+        <router-link to="/register">  Регистрация </router-link>
       </div>
       <div class="text-center md:text-right">Logo</div>
     </nav>
