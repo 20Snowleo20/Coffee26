@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj": {}
+    "c:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj": {
+    "c:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj",
+        "projectUniqueName": "c:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj",
         "projectName": "CoffeeBackend",
-        "projectPath": "C:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj",
+        "projectPath": "c:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\CoffeeBackend.csproj",
         "packagesPath": "C:\\Users\\sss11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\obj\\",
+        "outputPath": "c:\\Users\\sss11\\Desktop\\Веб-разработка\\Фронтенд\\На сдачу\\CoffeeRatingProject\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
