@@ -55,31 +55,35 @@ if (
 </script>
 
 <template>
-    <div class="p-5">
+    <div class="min-h-screen flex items-center justify-center bg-blue-100 from-slate-100 to-slate-200 p-5">
 
-        <h1 class="text-2xl mb-4">
-            Вход
-        </h1>
+        <div class="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
 
-        <input
-            v-model="login"
-            placeholder="Логин"
-            class="border p-2 mb-3 block"
-        >
+            <h2 class="text-3xl font-bold text-slate-800 mb-6 text-center">
+                Вход
+            </h2>
 
-        <input
-            v-model="password"
-            type="password"
-            placeholder="Пароль"
-            class="border p-2 mb-3 block"
-        >
+            <input
+                v-model="login"
+                placeholder="Логин"
+                class="w-full border border-gray-300 rounded-3xl p-3 mb-4 block focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-all placeholder-gray-400"
+            >
 
-        <button
-            @click="signIn"
-            class="border px-4 py-2"
-        >
-            Войти
-        </button>
+            <input
+                v-model="password"
+                type="password"
+                placeholder="Пароль"
+                class="w-full border border-gray-300 rounded-3xl p-3 mb-6 block focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-all placeholder-gray-400"
+            >
+
+            <button
+                @click="signIn"
+                class="w-full bg-slate-700 text-white font-semibold rounded-3xl py-3 px-4 hover:bg-slate-900 active:bg-slate-600 transition-all shadow-md hover:shadow-lg"
+            >
+                Войти
+            </button>
+
+        </div>
 
     </div>
 </template>

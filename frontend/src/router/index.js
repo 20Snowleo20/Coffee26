@@ -3,8 +3,7 @@ import Home from '../components/Home.vue'
 import Contacts from '../components/Contacts.vue'
 import Faq from '../components/Faq.vue'
 import Page404 from '../components/Page404.vue'
-import Login from '../Login.vue'
-import Register from '../Register.vue'
+import Recipes from '../components/Recipes.vue'
 import Profile from '../Profile.vue'
 
 const routes = [
@@ -12,14 +11,13 @@ const routes = [
   { path: '/contacts', name: 'contacts', component: Contacts },
   { path: '/faq', name: 'faq', component: Faq },
   { path: '/page404', name: 'Page404', component: Page404 },
-  { path: '/login', name: 'login', component: Login },
-  { path: '/register', name: 'register', component: Register },
+  { path: '/recipes', name: 'recipes', component: Recipes },
   { path: '/profile', name: 'profile', component: Profile },
   { path: '/:pathMatch(.*)*', name: 'not-found', component: Page404 }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
@@ -31,15 +29,5 @@ const router = createRouter({
     }
   }
 })
-router.beforeEach((to) => {
 
-    if (
-        to.path === '/profile' &&
-        !localStorage.getItem('user')
-    ) {
-        return '/login'
-    }
-
-    return true
-})
 export default router

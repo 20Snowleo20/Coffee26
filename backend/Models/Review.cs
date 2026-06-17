@@ -20,5 +20,5 @@ public class Review
 
     public int OverallRating { get; set; }
 
-    public int Bitterness { get; set; }
+    public int? Bitterness { get; set; }
 }
