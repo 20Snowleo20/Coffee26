@@ -1,6 +1,5 @@
 # Coffee Rating Project
-
-Веб-приложение для оценки кофеен и&nbsp;кофейных напитков. Пользователи могут регистрироваться, оставлять отзывы и&nbsp;просматривать рейтинг кофеен на&nbsp;основе средних оценок.
+Веб-приложение для оценки кофейных напитков в&nbsp;кофейнях (динамический рейтинг). Пользователи могут регистрироваться, оставлять отзывы и&nbsp;просматривать рейтинг кофеен на&nbsp;основе средних оценок.
 
 ## Возможности
 
@@ -15,7 +14,7 @@
 * обработка ошибки 404
 
 ## Технологии
-
+```bash
 **Frontend:** Vue&nbsp;3, Vue Router, Vite, Tailwind CSS
 **Backend:** ASP.NET Core Minimal API (C#)
 
@@ -30,12 +29,13 @@ Fullstack приложение с&nbsp;раздельным frontend и&nbsp;bac
 ## Запуск проекта
 
 ### Backend
-
+```bash
 cd&nbsp;backend
 dotnet run
 
 
 ### Frontend
+```bash
 cd&nbsp;frontend
 npm install
 npm run dev
