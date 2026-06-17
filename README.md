@@ -29,13 +29,13 @@ Fullstack приложение с&nbsp;раздельным frontend и&nbsp;bac
 
 ### Backend
 ```bash
-cd&nbsp;backend
+cd backend
 dotnet run
 ```
 
 ### Frontend
 ```bash
-cd&nbsp;frontend
+cd frontend
 npm install
 npm run dev
 ```
