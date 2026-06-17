@@ -14,8 +14,7 @@
 * обработка ошибки 404
 
 ## Технологии
-```bash
-**Frontend:** Vue&nbsp;3, Vue Router, Vite, Tailwind CSS
+**Frontend:** Vue&nbsp;3, Vue Router, Vite, Tailwind CSS <br>
 **Backend:** ASP.NET Core Minimal API (C#)
 
 ## Архитектура
@@ -32,11 +31,11 @@ Fullstack приложение с&nbsp;раздельным frontend и&nbsp;bac
 ```bash
 cd&nbsp;backend
 dotnet run
-
+```
 
 ### Frontend
 ```bash
 cd&nbsp;frontend
 npm install
 npm run dev
-
+```
